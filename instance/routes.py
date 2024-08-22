@@ -1,6 +1,6 @@
 # routes.py
 from flask import jsonify, request
-from models import * # ClinicaVeterinaria, Consulta,
+from controle_petshop import * # ClinicaVeterinaria, Consulta,
 
 # Instâncias criadas manualmente
 
