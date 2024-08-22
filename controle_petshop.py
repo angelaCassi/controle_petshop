@@ -1,6 +1,6 @@
-from flask import Flask, jsonify, request
+# from flask import Flask, jsonify, request
 
-app = Flask(__name__)
+# app = Flask(__name__)
 
 # Classe Dono
 class Dono:
@@ -100,7 +100,7 @@ class ClinicaVeterinaria:
         return f'Clínica {self.nome}, Endereço: {self.endereco}, Veterinários: {len(self.veterinarios)}'
 
 # Exemplo de instâncias criadas manualmente    
-dono1 = Dono('Lucas', 'Rua A, 123', '1111-1111')
+""""" dono1 = Dono('Lucas', 'Rua A, 123', '1111-1111')
 dono2 = Dono('Joana', 'Rua B, 231', '2222-2222')
 dono3 = Dono('Mario', 'Rua C, 321', '3333-3333')
 
@@ -180,9 +180,13 @@ def remover_consulta(id):
     consulta = clinica.encontrar_consulta(id)
     if not consulta:
         return jsonify({'error': 'Consulta não encontrada'}), 404
+       
+
 
     clinica.consultas.remove(consulta)
     return jsonify({'message': 'Consulta removida com sucesso!'}), 200
 
 if __name__ == '__main__':
     app.run(port=5000, host='localhost', debug=True)
+
+    """"" 
