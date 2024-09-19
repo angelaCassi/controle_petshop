@@ -4,3 +4,4 @@ Gerenciamento de Donos: Permite criar, listar, editar e excluir informações so
 Gerenciamento de Animais: Associa animais aos donos e possibilita listar e excluir animais.
 Agendamento de Consultas: Agendas, remarca ou cancela consultas.
 Produtos: Exibe, adiciona ou remove produtos da clínica.
+OBS: o código está na pasta ".vscode"
